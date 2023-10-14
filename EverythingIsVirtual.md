@@ -13,6 +13,8 @@ $ dnf groupinfo virtualization
 ```
 This will show the mandatory, defauld and the optional packages required for the virtualization.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjQzNzI1NCwtMTQ2MjU2NjI2N119
+eyJoaXN0b3J5IjpbLTIxMTg4NDYwMjgsLTE0NjI1NjYyNjddfQ
+==
 -->
