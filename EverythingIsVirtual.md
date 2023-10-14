@@ -46,19 +46,21 @@ To use the virt-install command, we should first download an iso of the targeted
 We need to adjust the ram, vcpus, and disk size parameters according to the resources we have available. Finally, lets run the virt-install command using the following format (adjusting parameters as needed):
 ```
 ```
-$ sudo virt-install\ 
+$ sudo virt-install \ 
 --name ubuntu-guest\
 --os-variant ubuntu20.04\
 --vcpus 2\
 --ram 2048\
---location ./Downloads/ --network bridge=virbr0,model=virtio --graphics none --extra-args='console=ttyS0,115200n8 serial'
+--location ./Downloads/ubuntu-22.04.3-live-server-amd64.iso\
+--network bridge=virbr0,model=virtio\
+--graphics none --extra-args='console=ttyS0,115200n8 serial'
 ```
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODQ2MzAzOSwxODI4NDQ5ODU3LDE0ND
+eyJoaXN0b3J5IjpbMTc2MTk5NzE3MSwxODI4NDQ5ODU3LDE0ND
 c2NzE2MjEsMjA2Mzk2NDg4OSwtMTY3NDI3MTU2OCwtMjExODg0
 NjAyOCwtMTQ2MjU2NjI2N119
 -->
