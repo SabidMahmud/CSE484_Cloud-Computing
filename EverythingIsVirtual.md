@@ -14,12 +14,11 @@ $ dnf groupinfo virtualization
 This will show the mandatory, defauld and the optional packages required for the virtualization.
 ![dnf groupinfo virtualization.png](https://github.com/SabidMahmud/CSE484_Cloud-Computing/blob/main/Everything%20is%20virtual%3F/dnf%20groupinfo%20virtualization.png?raw=true)
 1. We need to run un the following command to install the mandatory and default packages in the virtualization group:
-```
-sudo dnf install @virtualization
-```
- 
-
+	```
+	sudo dnf install @virtualization
+	```
+	Alternatively, to install the mandato
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDA5NzYyOSwtMjExODg0NjAyOCwtMT
-Q2MjU2NjI2N119
+eyJoaXN0b3J5IjpbNjgwNzgwMzM0LC0yMTE4ODQ2MDI4LC0xND
+YyNTY2MjY3XX0=
 -->
