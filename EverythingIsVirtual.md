@@ -38,8 +38,10 @@ This will show the mandatory, defauld and the optional packages required for the
 	![grepkvm.png](https://github.com/SabidMahmud/CSE484_Cloud-Computing/blob/main/Everything%20is%20virtual%3F/grepkvm.png?raw=true)
 
 # Creating Virtual machines using `virt-install`
-Though kvm has a GUI to install virtual machine, the installation can be star
+Though kvm has a GUI to install virtual machine, the installation can be started on the command line using the `virt-install` command on terminal.
+### Creating a guest instance with virt install command
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDM5Mjc4NiwyMDYzOTY0ODg5LC0xNj
+eyJoaXN0b3J5IjpbMjExNzMzMDU2MSwyMDYzOTY0ODg5LC0xNj
 c0MjcxNTY4LC0yMTE4ODQ2MDI4LC0xNDYyNTY2MjY3XX0=
 -->
