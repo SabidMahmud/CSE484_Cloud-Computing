@@ -46,7 +46,7 @@ To use the virt-install command, we should first download an iso of the targeted
 We need to adjust the ram, vcpus, and disk size parameters according to the resources we have available. Finally, lets run the virt-install command using the following format (adjusting parameters as needed):
 ```
 $ sudo virt-install \ 
---name ubuntu-guest \
+--name mahmud-22301172_ubuntu_server \
 --os-variant ubuntu20.04 \ 
 --vcpus 2 \
 --ram 2048 \
@@ -59,7 +59,7 @@ $ sudo virt-install \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjkyMjQ1OSwxODI4NDQ5ODU3LDE0ND
+eyJoaXN0b3J5IjpbMTEzNDI4MDU5NCwxODI4NDQ5ODU3LDE0ND
 c2NzE2MjEsMjA2Mzk2NDg4OSwtMTY3NDI3MTU2OCwtMjExODg0
 NjAyOCwtMTQ2MjU2NjI2N119
 -->
