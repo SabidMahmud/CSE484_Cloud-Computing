@@ -35,8 +35,9 @@ This will show the mandatory, defauld and the optional packages required for the
 	```
 	$ lsmod | grep kvm
 	```
+	![grepkvm.png](https://github.com/SabidMahmud/CSE484_Cloud-Computing/blob/main/Everything%20is%20virtual%3F/grepkvm.png?raw=true)
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Mzk2NDg4OSwtMTY3NDI3MTU2OCwtMj
-ExODg0NjAyOCwtMTQ2MjU2NjI2N119
+eyJoaXN0b3J5IjpbLTIzMjg5MzQ2MSwyMDYzOTY0ODg5LC0xNj
+c0MjcxNTY4LC0yMTE4ODQ2MDI4LC0xNDYyNTY2MjY3XX0=
 -->
