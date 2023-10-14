@@ -15,17 +15,18 @@ This will show the mandatory, defauld and the optional packages required for the
 ![dnf groupinfo virtualization.png](https://github.com/SabidMahmud/CSE484_Cloud-Computing/blob/main/Everything%20is%20virtual%3F/dnf%20groupinfo%20virtualization.png?raw=true)
 1. We need to run un the following command to install the mandatory and default packages in the virtualization group:
 	```
-	sudo dnf install @virtualization
+	$ sudo dnf install @virtualization
 	```
 	Alternatively, to install the mandatory, default, and optional package, run:
 	```
-	# sudo dnf group install --with-optional virtualization
+	$ sudo dnf group install --with-optional virtualization
 	```
 2. After installing the packages, we need to start the `libvirtd` servince:
 	```
-	# sudo 
+	$ sudo systemctl start libvirtd
 	```
+	To start the service on boot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjE0MjQsLTIxMTg4NDYwMjgsLTE0Nj
-I1NjYyNjddfQ==
+eyJoaXN0b3J5IjpbLTExNDE4NTk0MDYsLTIxMTg4NDYwMjgsLT
+E0NjI1NjYyNjddfQ==
 -->
