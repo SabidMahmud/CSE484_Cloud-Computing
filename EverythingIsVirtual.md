@@ -25,8 +25,13 @@ This will show the mandatory, defauld and the optional packages required for the
 	```
 	$ sudo systemctl start libvirtd
 	```
-	To start the service on boot
+	To start the service on boot, we can run the following command:
+	```
+	$ sudo systemctl enable libvirtd
+	```
+3. To verify that the KVM kernel modules are properly loaded:
+		$ lsmod | grep kvm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDE4NTk0MDYsLTIxMTg4NDYwMjgsLT
-E0NjI1NjYyNjddfQ==
+eyJoaXN0b3J5IjpbMTI4NzI4MDQwNCwtMjExODg0NjAyOCwtMT
+Q2MjU2NjI2N119
 -->
