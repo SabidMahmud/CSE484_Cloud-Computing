@@ -43,12 +43,15 @@ Though kvm has a GUI to install virtual machine, the installation can be started
 `virt-install` is a command line based tool for creating virtualized guest instance. 
 To use the virt-install command, we should first download an iso of the targeted  operating sytem. This time we are selecting the ubuntu server 22.04.
 #### Planning VM Resources
-We need to adjust the ram, vcpus, and disk size parameters according to the resources we have available. Finally, lets run the virt-i
+We need to adjust the ram, vcpus, and disk size parameters according to the resources we have available. Finally, lets run the virt-install command using the following format (adjusting parameters as needed):
+```
+# sudo virt-install --name mahmud_22301172_server \ --description 'Sabid Mahmud 22301172 Server Vm' \ --ram 2048 \ --vcpus 2 \ --disk path=/var/lib/libvirt/images/Fedora-Workstation-38/Fedora-Workstation-38-20180518.0.x86_64.qcow2,size=20 \ --os-type linux \ --os-variant fedora38 \ --network bridge=virbr0 \ --graphics vnc,listen=127.0.0.1,port=5901 \ --cdrom /var/lib/libvirt/images/Fedora-Workstation-38/Fedora-Workstation-Live-x86-64-38-1.1.iso \ --noautoconsole
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI2NzgwOTgsMTQ0NzY3MTYyMSwyMD
-YzOTY0ODg5LC0xNjc0MjcxNTY4LC0yMTE4ODQ2MDI4LC0xNDYy
-NTY2MjY3XX0=
+eyJoaXN0b3J5IjpbMTgyODQ0OTg1NywxNDQ3NjcxNjIxLDIwNj
+M5NjQ4ODksLTE2NzQyNzE1NjgsLTIxMTg4NDYwMjgsLTE0NjI1
+NjYyNjddfQ==
 -->
