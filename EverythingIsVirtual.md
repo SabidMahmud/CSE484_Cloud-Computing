@@ -30,10 +30,11 @@ This will show the mandatory, defauld and the optional packages required for the
 	$ sudo systemctl enable libvirtd
 	```
 3. To verify that the KVM kernel modules are properly loaded:
-		```
-		lsmod | grep kvm
-		```
+	```
+	$ lsmod | grep kvm
+	```
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTc2ODg0NTgsLTIxMTg4NDYwMjgsLT
+eyJoaXN0b3J5IjpbLTE2NzQyNzE1NjgsLTIxMTg4NDYwMjgsLT
 E0NjI1NjYyNjddfQ==
 -->
