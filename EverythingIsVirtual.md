@@ -17,8 +17,12 @@ This will show the mandatory, defauld and the optional packages required for the
 	```
 	sudo dnf install @virtualization
 	```
-	Alternatively, to install the mandato
+	Alternatively, to install the mandatory, default, and optional package, run:
+	```
+	# sudo dnf group install --with-optional virtualization
+	```
+2. After installing the packages, we need to start the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwNzgwMzM0LC0yMTE4ODQ2MDI4LC0xND
-YyNTY2MjY3XX0=
+eyJoaXN0b3J5IjpbMTkwMjU0MzA2MywtMjExODg0NjAyOCwtMT
+Q2MjU2NjI2N119
 -->
