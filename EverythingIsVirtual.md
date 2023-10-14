@@ -21,8 +21,11 @@ This will show the mandatory, defauld and the optional packages required for the
 	```
 	# sudo dnf group install --with-optional virtualization
 	```
-2. After installing the packages, we need to start the 
+2. After installing the packages, we need to start the `libvirtd` servince:
+	```
+	# sudo 
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjU0MzA2MywtMjExODg0NjAyOCwtMT
-Q2MjU2NjI2N119
+eyJoaXN0b3J5IjpbMjg5NjE0MjQsLTIxMTg4NDYwMjgsLTE0Nj
+I1NjYyNjddfQ==
 -->
