@@ -43,10 +43,12 @@ Though kvm has a GUI to install virtual machine, the installation can be started
 `virt-install` is a command line based tool for creating virtualized guest instance. 
 To use the virt-install command, we should first download an iso of the targeted  operating sytem. This time we are selecting the ubuntu server 22.04.
 #### Planning VM Resources
-We need to 
+
+We need to adjust the ram, vcpus, and disk size parameters according to the resources we have available.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDIwNjkwMiwxNDQ3NjcxNjIxLDIwNj
+eyJoaXN0b3J5IjpbLTIxMjM0NzE4MCwxNDQ3NjcxNjIxLDIwNj
 M5NjQ4ODksLTE2NzQyNzE1NjgsLTIxMTg4NDYwMjgsLTE0NjI1
 NjYyNjddfQ==
 -->
