@@ -12,9 +12,10 @@ We can install the virtualization tools via command line using the Virtualizatio
 $ dnf groupinfo virtualization
 ```
 This will show the mandatory, defauld and the optional packages required for the virtualization.
-
+![dnf groupinfo virtualization.png](https://github.com/SabidMahmud/CSE484_Cloud-Computing/blob/main/Everything%20is%20virtual%3F/dnf%20groupinfo%20virtualization.png?raw=true)
+1. Run the following command to install the mandatory and default packages in the virtualization 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTg4NDYwMjgsLTE0NjI1NjYyNjddfQ
-==
+eyJoaXN0b3J5IjpbLTE0NTM3ODc1MjUsLTIxMTg4NDYwMjgsLT
+E0NjI1NjYyNjddfQ==
 -->
