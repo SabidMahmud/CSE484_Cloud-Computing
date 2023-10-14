@@ -50,6 +50,8 @@ $ sudo virt-install \
 --os-variant ubuntu20.04 \ 
 --vcpus 2 \
 --ram 2048 \
+--os-type linux
+--os-variant ubuntu
 --location ./Downloads/ubuntu-22.04.3-live-server-amd64.iso \
 --network bridge=virbr0,model=virtio \
 --graphics none \ 
@@ -59,7 +61,7 @@ $ sudo virt-install \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNDI4MDU5NCwxODI4NDQ5ODU3LDE0ND
-c2NzE2MjEsMjA2Mzk2NDg4OSwtMTY3NDI3MTU2OCwtMjExODg0
-NjAyOCwtMTQ2MjU2NjI2N119
+eyJoaXN0b3J5IjpbMTE5Njk3NjMyNiwxMTM0MjgwNTk0LDE4Mj
+g0NDk4NTcsMTQ0NzY3MTYyMSwyMDYzOTY0ODg5LC0xNjc0Mjcx
+NTY4LC0yMTE4ODQ2MDI4LC0xNDYyNTY2MjY3XX0=
 -->
