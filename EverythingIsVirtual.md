@@ -40,8 +40,9 @@ This will show the mandatory, defauld and the optional packages required for the
 # Creating Virtual machines using `virt-install`
 Though kvm has a GUI to install virtual machine, the installation can be started on the command line using the `virt-install` command on terminal.
 ### Creating a guest instance with virt install command
-`virt-install` is a command line based tool for creating v
+`virt-install` is a command line based tool for creating virtualized 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzY3MTYyMSwyMDYzOTY0ODg5LC0xNj
-c0MjcxNTY4LC0yMTE4ODQ2MDI4LC0xNDYyNTY2MjY3XX0=
+eyJoaXN0b3J5IjpbNDcxMDQxNDYwLDE0NDc2NzE2MjEsMjA2Mz
+k2NDg4OSwtMTY3NDI3MTU2OCwtMjExODg0NjAyOCwtMTQ2MjU2
+NjI2N119
 -->
