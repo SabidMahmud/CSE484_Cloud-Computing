@@ -29,12 +29,14 @@ This will show the mandatory, defauld and the optional packages required for the
 	```
 	$ sudo systemctl enable libvirtd
 	```
+	![systemctl libvirtd.png](https://github.com/SabidMahmud/CSE484_Cloud-Computing/blob/main/Everything%20is%20virtual%3F/systemctl%20libvirtd.png?raw=true)
+
 3. To verify that the KVM kernel modules are properly loaded:
 	```
 	$ lsmod | grep kvm
 	```
 	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQyNzE1NjgsLTIxMTg4NDYwMjgsLT
-E0NjI1NjYyNjddfQ==
+eyJoaXN0b3J5IjpbMjA2Mzk2NDg4OSwtMTY3NDI3MTU2OCwtMj
+ExODg0NjAyOCwtMTQ2MjU2NjI2N119
 -->
