@@ -45,13 +45,20 @@ To use the virt-install command, we should first download an iso of the targeted
 #### Planning VM Resources
 We need to adjust the ram, vcpus, and disk size parameters according to the resources we have available. Finally, lets run the virt-install command using the following format (adjusting parameters as needed):
 ```
-# sudo virt-install --name mahmud_22301172_server \ --description 'Sabid Mahmud 22301172 Server Vm' \ --ram 2048 \ --vcpus 2 \ --disk path=/var/lib/libvirt/images/Fedora-Workstation-38/Fedora-Workstation-38-20180518.0.x86_64.qcow2,size=20 \ --os-type linux \ --os-variant fedora38 \ --network bridge=virbr0 \ --graphics vnc,listen=127.0.0.1,port=5901 \ --cdrom /var/lib/libvirt/images/Fedora-Workstation-38/Fedora-Workstation-Live-x86-64-38-1.1.iso \ --noautoconsole
+```
+$ sudo virt-install\ 
+--name ubuntu-guest\
+--os-variant ubuntu20.04\
+--vcpus 2\
+--ram 2048\
+--location ./Downloads/ --network bridge=virbr0,model=virtio --graphics none --extra-args='console=ttyS0,115200n8 serial'
+```
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODQ0OTg1NywxNDQ3NjcxNjIxLDIwNj
-M5NjQ4ODksLTE2NzQyNzE1NjgsLTIxMTg4NDYwMjgsLTE0NjI1
-NjYyNjddfQ==
+eyJoaXN0b3J5IjpbLTY3ODQ2MzAzOSwxODI4NDQ5ODU3LDE0ND
+c2NzE2MjEsMjA2Mzk2NDg4OSwtMTY3NDI3MTU2OCwtMjExODg0
+NjAyOCwtMTQ2MjU2NjI2N119
 -->
